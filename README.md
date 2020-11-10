@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+Access meditation timer here.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://flicht.github.io/react-meditation-gong/
 
 ## Available Scripts
 
