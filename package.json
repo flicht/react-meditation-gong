@@ -1,4 +1,5 @@
 {
+  "homepage": "http://flicht.github.io/my-app"
   "name": "react-meditation-gong",
   "version": "0.1.0",
   "private": true,
@@ -6,12 +7,21 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "d3": "^6.2.0",
+    "gh-pages": "^3.1.0",
+    "node-sass": "4.14.1",
     "react": "^17.0.1",
+    "react-d3-library": "^1.1.8",
     "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
     "react-scripts": "4.0.0",
+    "sass-loader": "^10.0.5",
+    "use-sound": "^1.0.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

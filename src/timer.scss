@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+$button-color-active: #eee8fa;
+$background-color: #FAF7DE;
+$button-text-color: #152d4a;
+$main-circle-color: #e4d098;
+$button-color: #c8d6f1;
+
+$circle-param: 225px;
+$circle-button-param: 55px;
+
+.app {
+  text-align: center;
+  background-color: $background-color ;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'IBM Plex Mono', monospace;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height:100%;
+}
+
+.time {
+  font-size: 3rem;
+  padding: 6rem;
+}
+
+.timer-width {
+  min-width: 100px;
+  padding: 3em;
+  text-align: center;
+}
+
+.button {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-style: groove;
+  width: 7em;
+}
+
+.button:focus {
+  outline-width: 0;
+}
+
+.button-primary:hover {
+  background-color: $button-color;
+  border: 1px solid $button-color;
+}
+
+.button-primary:active {
+  background-color: $button-color;
+  border: 1px solid $button-color;
+}
+
+.button-primary-active {
+  background-color: $button-color;
+  border: 1px solid $button-color;
+  color: $button-text-color;
+}
+
+.button-primary-inactive {
+  background-color: $button-color;
+  border: 1px solid $button-color;
+  color: $button-text-color;
+}
+
+.timer-circle {
+  height: $circle-param;
+  width: $circle-param;
+  background-color: $main-circle-color;
+  border-radius: 50%;
+  line-height: $circle-param;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  color: $button-text-color;
+  
+}
+
+.timer-circle-grow {
+  -webkit-animation:grow 7s infinite;
+}
+
+.circle-button {
+  font-family: 'IBM Plex Mono', monospace;
+  height: $circle-button-param;
+  width: $circle-button-param;
+  background-color: $button-color;
+  border-radius: 50%;
+  line-height: $circle-button-param;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  color: $button-text-color;
+  margin: 0.2em;
+  
+}
+
+
+.circle-button:hover {
+  background-color: $button-color-active;
+  border: 1px solid $button-color-active;
+
+}
+
+@keyframes grow {
+ 0% {
+-webkit-transform: scale( 1 );
+-moz-transform: scale( 1 );
+-o-transform: scale( 1 );
+-ms-transform: scale( 1 );
+transform: scale( 1 );
+  }
+  
+  50% {
+  -webkit-transform: scale( 1.7 );
+  -moz-transform: scale( 1.7 );
+  -o-transform: scale( 1.7 );
+  -ms-transform: scale( 1.7 );
+  transform: scale( 1.7 );
+  }
+  
+  100% {
+  -webkit-transform: scale( 1 );
+  -moz-transform: scale( 1 );
+  -o-transform: scale( 1 );
+  -ms-transform: scale( 1 );
+  transform: scale( 1 );
+  }
+}
