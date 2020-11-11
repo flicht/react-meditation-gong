@@ -75,17 +75,19 @@ $circle-button-param: 55px;
   height: $circle-param;
   width: $circle-param;
   background-color: $main-circle-color;
-  border-radius: 50%;
+  border-radius: 43% 57% 48% 52% / 47% 43% 57% 53% ;
   line-height: $circle-param;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
   color: $button-text-color;
+  animation: wobble 7s linear infinite;
+  
   
 }
 
 .timer-circle-grow {
-  -webkit-animation:grow 7s infinite;
+  animation:grow 7s ease-in-out infinite, wobble 7s linear infinite;
 }
 
 .circle-button {
@@ -110,6 +112,31 @@ $circle-button-param: 55px;
 
 }
 
+@keyframes wobble {
+  0%{
+    border-radius: 43% 57% 48% 52% / 47% 43% 57% 53%;
+  }
+  16%{
+    border-radius: 34% 66% 63% 37% / 63% 46% 54% 37%;
+  }
+  33%{
+    border-radius: 58% 42% 36% 64% / 52% 70% 30% 48%; 
+  }
+  50%{
+    border-radius: 64% 36% 63% 37% / 68% 46% 54% 32%;
+  }
+  67%{
+    border-radius: 41% 59% 36% 64% / 52% 33% 67% 48%;
+  }
+  83%{
+    border-radius: 58% 42% 49% 51% / 70% 67% 33% 30% 
+  }  
+  100%{
+    border-radius: 43% 57% 48% 52% / 47% 43% 57% 53%;
+  }
+}
+
+
 @keyframes grow {
  0% {
 -webkit-transform: scale( 1 );
@@ -117,17 +144,16 @@ $circle-button-param: 55px;
 -o-transform: scale( 1 );
 -ms-transform: scale( 1 );
 transform: scale( 1 );
-  }
-  
-  50% {
+}
+
+50% {
   -webkit-transform: scale( 1.7 );
   -moz-transform: scale( 1.7 );
   -o-transform: scale( 1.7 );
   -ms-transform: scale( 1.7 );
   transform: scale( 1.7 );
-  }
-  
-  100% {
+}
+100% {
   -webkit-transform: scale( 1 );
   -moz-transform: scale( 1 );
   -o-transform: scale( 1 );
