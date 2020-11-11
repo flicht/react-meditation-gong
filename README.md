@@ -44,3 +44,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 Deploys to github pages
 
 https://9elements.github.io/fancy-border-radius/
+
+If you get 
+`fatal: A branch named 'gh-pages' already exists.`
+
+Run:
+`rm -rf node_modules/.cache/gh-pages/`
+
