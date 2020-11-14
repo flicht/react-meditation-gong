@@ -146,7 +146,15 @@ $circle-button-param: 55px;
 transform: scale( 1 );
 }
 
-50% {
+48% {
+  -webkit-transform: scale( 1.7 );
+  -moz-transform: scale( 1.7 );
+  -o-transform: scale( 1.7 );
+  -ms-transform: scale( 1.7 );
+  transform: scale( 1.7 );
+}
+
+52% {
   -webkit-transform: scale( 1.7 );
   -moz-transform: scale( 1.7 );
   -o-transform: scale( 1.7 );
