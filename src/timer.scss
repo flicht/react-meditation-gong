@@ -87,7 +87,7 @@ $circle-button-param: 55px;
 }
 
 .timer-circle-grow {
-  animation:grow 7s infinite, wobble 7s linear infinite;
+  animation:grow 7s ease infinite, wobble 7s linear infinite;
 }
 
 .circle-button {
