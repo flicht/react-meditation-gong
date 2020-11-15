@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-meditation-gong/static/css/main.1748d7b0.chunk.css",
+    "main.css": "/react-meditation-gong/static/css/main.9890f394.chunk.css",
     "main.js": "/react-meditation-gong/static/js/main.44c45074.chunk.js",
     "main.js.map": "/react-meditation-gong/static/js/main.44c45074.chunk.js.map",
     "runtime-main.js": "/react-meditation-gong/static/js/runtime-main.c931ee7f.js",
@@ -12,7 +12,7 @@
     "static/js/4.3917f2d6.chunk.js": "/react-meditation-gong/static/js/4.3917f2d6.chunk.js",
     "static/js/4.3917f2d6.chunk.js.map": "/react-meditation-gong/static/js/4.3917f2d6.chunk.js.map",
     "index.html": "/react-meditation-gong/index.html",
-    "static/css/main.1748d7b0.chunk.css.map": "/react-meditation-gong/static/css/main.1748d7b0.chunk.css.map",
+    "static/css/main.9890f394.chunk.css.map": "/react-meditation-gong/static/css/main.9890f394.chunk.css.map",
     "static/js/2.46b266d9.chunk.js.LICENSE.txt": "/react-meditation-gong/static/js/2.46b266d9.chunk.js.LICENSE.txt",
     "static/js/3.5ab7e2d3.chunk.js.LICENSE.txt": "/react-meditation-gong/static/js/3.5ab7e2d3.chunk.js.LICENSE.txt",
     "static/media/bells.5e9dbdeb.wav": "/react-meditation-gong/static/media/bells.5e9dbdeb.wav"
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.c931ee7f.js",
     "static/js/2.46b266d9.chunk.js",
-    "static/css/main.1748d7b0.chunk.css",
+    "static/css/main.9890f394.chunk.css",
     "static/js/main.44c45074.chunk.js"
   ]
 }
